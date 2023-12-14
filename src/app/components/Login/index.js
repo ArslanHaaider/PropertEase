@@ -7,9 +7,9 @@ import { LoginForm } from "./form";
 export const Login = (props) => {
   return (
     <div className="main_body">
-      <div className="logo">
+      {/* <div className="logo">
         <img src={logo}></img>
-      </div>
+      </div> */}
       <div className="main_body_container">
         <div className="main_body_content">
           <div className="loginPic">

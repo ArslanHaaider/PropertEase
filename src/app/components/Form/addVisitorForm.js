@@ -165,7 +165,7 @@ const AddVisitorForm = ({ title, showDrawer }) => {
                 />
               </Form.Item>
               <Form.Item name="date">
-                <label style={{ color: "#4A0D37" }}>Required From</label>
+                <label style={{ color: "#527853" }}>Required From</label>
                 <Input
                   placeholder="Visitng Date"
                   className="visitor_form_input"
@@ -176,7 +176,7 @@ const AddVisitorForm = ({ title, showDrawer }) => {
                 />
               </Form.Item>
               <Form.Item>
-                <label style={{ color: "#4A0D37" }}>Studio Flat</label>
+                <label style={{ color: "#527853" }}>Studio Flat</label>
                 <Checkbox
                   onChange={handleFlatChange}
                   value={studioFlat}
@@ -184,7 +184,7 @@ const AddVisitorForm = ({ title, showDrawer }) => {
                 ></Checkbox>
               </Form.Item>
               <Form.Item>
-                <label style={{ color: "#4A0D37" }}>Flat Type</label>
+                <label style={{ color: "#527853" }}>Flat Type</label>
                 <CounterBtn
                   placeholder="Bed Rooms"
                   state={maxRooms}
@@ -225,7 +225,7 @@ const AddVisitorForm = ({ title, showDrawer }) => {
                 />
               </Form.Item>
               <Form.Item>
-                <label style={{ color: "#4A0D37" }}>Building Name</label>
+                <label style={{ color: "#527853" }}>Building Name</label>
                 <BuildingDropDown
                   value={selectedBuilding}
                   handleChange={handleBuildingChange}
@@ -260,7 +260,7 @@ const AddVisitorForm = ({ title, showDrawer }) => {
               <CustomButton
                 handleClick={handleSave}
                 buttonName={"Save"}
-                bgColor={"#4A0D37"}
+                bgColor={"#527853"}
                 color={"#F8F8F8"}
               />
             </Col>

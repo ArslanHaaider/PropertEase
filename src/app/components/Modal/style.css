@@ -41,7 +41,7 @@
 }
 
 .resend_link {
-    color: #4A0D37;
+    color: #527853;
     font-weight: 500;
     margin-left: 3px;
 }
@@ -145,18 +145,18 @@
 }
 .complaint-heading{
     text-transform: capitalize;
-    color: #4A0D37;
+    color: #527853;
 }
 .status-dropdown{
     float: right;
 }
 .desc{
     margin-top: 40px;
-    color: #4A0D37;
+    color: #527853;
 }
 .form_input_modal {
     margin: 20px 0 !important;
-    color: #4A0D37;
+    color: #527853;
     font-weight: 600;
 }
 .update-btn {

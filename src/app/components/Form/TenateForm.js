@@ -160,7 +160,7 @@ const TenateForm = ({ title, showDrawer }) => {
             </div>
           </Col>
           <Col offset={isMobile ? 0 : 4} md={10} sm={16}>
-            <label style={{ color: "#4A0D37" }}>Building Name</label>
+            <label style={{ color: "#527853" }}>Building Name</label>
             <BuildingDropDown
               value={selectedBuilding}
               handleChange={handleBuildingChange}
@@ -182,7 +182,7 @@ const TenateForm = ({ title, showDrawer }) => {
             <CustomButton
               handleClick={handleSave}
               buttonName={"Save"}
-              bgColor={"#4A0D37"}
+              bgColor={"#527853"}
               color={"#F8F8F8"}
             />
           </Col>

@@ -10,13 +10,13 @@ border: 2px solid black;
 }
 
 .table {
-    color: #4A0D37;
+    color: #527853;
 }
 
 .icon {
     display: flex;
     justify-content: space-between;
-    color: #4A0D37;
+    color: #527853;
     width: 60px;
     font-size: 20px;
 }
@@ -28,7 +28,7 @@ border: 2px solid black;
 }
 
 .mb_table_heading {
-    color: #4A0D37;
+    color: #527853;
     padding: 30px;
     display: none;
 }
@@ -55,7 +55,7 @@ border: 2px solid black;
     }
 
     .mb_table_heading {
-        color: #4A0D37;
+        color: #527853;
         padding: 30px;
         display: block;
     }

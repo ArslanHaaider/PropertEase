@@ -118,7 +118,7 @@ const SideBar = ({
             left: 0,
             top: 0,
             bottom: 0,
-            backgroundColor: "#4A0D37",
+            backgroundColor: "#527853",
           }}
         >
           <div
@@ -151,7 +151,7 @@ const SideBar = ({
             defaultSelectedKeys={["1"]}
             mode="inline"
             items={items}
-            style={{ backgroundColor: "#4A0D37" }}
+            style={{ backgroundColor: "#527853" }}
           />
         </Sider>
       ) : (
@@ -162,7 +162,7 @@ const SideBar = ({
             closable={true}
             onClose={onClose}
             open={open}
-            style={{ width: "250px", backgroundColor: "#4A0D37" }}
+            style={{ width: "250px", backgroundColor: "#527853" }}
             key={placement}
           >
             <Sider
@@ -179,7 +179,7 @@ const SideBar = ({
                 left: 0,
                 top: 0,
                 bottom: 0,
-                backgroundColor: "#4A0D37",
+                backgroundColor: "#527853",
               }}
             >
               <div
@@ -214,7 +214,7 @@ const SideBar = ({
                 defaultSelectedKeys={["1"]}
                 mode="inline"
                 items={items}
-                style={{ backgroundColor: "#4A0D37" }}
+                style={{ backgroundColor: "#527853" }}
               />
             </Sider>
           </Drawer>

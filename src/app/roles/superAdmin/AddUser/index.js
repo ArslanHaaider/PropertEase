@@ -250,7 +250,7 @@ export const AddSuperAdminUser = ({ showDrawer }) => {
               </div>
               <br />
               <br />
-              <p style={{ color: "#4A0D37" }}>Real Estate</p>
+              <p style={{ color: "#527853" }}>Real Estate</p>
               <Input
                 placeholder="Real Estate Name"
                 className="form_input"
@@ -264,7 +264,7 @@ export const AddSuperAdminUser = ({ showDrawer }) => {
                 disabled={category == "tenant" ? true : false}
               /> */}
               <br />
-              <p style={{ color: "#4A0D37" }}>Building</p>
+              <p style={{ color: "#527853" }}>Building</p>
               <BuildingDropDown
                 setSelectedBuilding={setSelectedBuilding}
                 disabled={category === "tenant" ? true : false}
@@ -277,14 +277,14 @@ export const AddSuperAdminUser = ({ showDrawer }) => {
             <CustomButton
               handleClick={handleGoTo}
               buttonName={"Redirecting"}
-              bgColor={"#4A0D37"}
+              bgColor={"#527853"}
               color={"#F8F8F8"}
             />
           ) : (
             <CustomButton
               handleClick={handleSave}
               buttonName={"Save"}
-              bgColor={"#4A0D37"}
+              bgColor={"#527853"}
               color={"#F8F8F8"}
             />
           )}

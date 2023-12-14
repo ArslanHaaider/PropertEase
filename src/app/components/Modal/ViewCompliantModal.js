@@ -149,7 +149,7 @@ const ViewCompliantModal = ({ visibleModal, setVisibleModal, data, path }) => {
                   <CustomButton
                     handleClick={handleUpdate}
                     buttonName={"Update"}
-                    bgColor={"#4A0D37"}
+                    bgColor={"#527853"}
                     color={"#F8F8F8"}
                   />
                 </div>

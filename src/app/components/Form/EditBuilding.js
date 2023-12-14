@@ -174,7 +174,7 @@ const EditBuildingForm = ({ title, showDrawer }) => {
           <CustomButton
             handleClick={handleSave}
             buttonName={"Save"}
-            bgColor={"#4A0D37"}
+            bgColor={"#527853"}
             color={"#F8F8F8"}
           />
           <CustomAlert />

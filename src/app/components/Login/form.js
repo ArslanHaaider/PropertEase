@@ -147,7 +147,7 @@ export const LoginForm = (props) => {
           <Oval
             height={50}
             width={50}
-            color="#4A0D37"
+            color="#527853"
             wrapperStyle={{}}
             wrapperClass=""
             visible={true}
@@ -204,7 +204,7 @@ export const LoginForm = (props) => {
           <CustomButton
             handleClick={handleSubmit}
             buttonName={props.name}
-            bgColor={"#4A0D37"}
+            bgColor={"#527853"}
             color={"#F8F8F8"}
           />
         </Form>

@@ -65,7 +65,7 @@ const ListReceiptsForm = (showDrawer) => {
             className="col-md-6"
             // disabled={loginOrCrm === 0 ? true : false}
             // handleClick={handleClick}
-            bgColor={"#4A0D37"}
+            bgColor={"#527853"}
             color={"#F8F8F8"}
             buttonName={"Search"}
           />
@@ -92,7 +92,7 @@ const ListReceiptsForm = (showDrawer) => {
                     className="col-md-6"
                     // disabled={loginOrCrm === 0 ? true : false}
                     // handleClick={handleClick}
-                    bgColor={"#4A0D37"}
+                    bgColor={"#527853"}
                     color={"#F8F8F8"}
                     buttonName={"Bulk Actions"}
                   />

@@ -216,7 +216,7 @@ export const EditSuperAdminUser = ({ showDrawer }) => {
               </Dropdown.Button>
               <br />
               <br />
-              <p style={{ color: "#4A0D37" }}>Allow Sub Users</p>
+              <p style={{ color: "#527853" }}>Allow Sub Users</p>
               <Radio.Group onChange={handleSubUsers} value={allowSubUsers}>
                 <Radio value={"true"}>True</Radio>
                 <Radio value={"false"}>False</Radio>
@@ -224,7 +224,7 @@ export const EditSuperAdminUser = ({ showDrawer }) => {
               <br />
               <br />
 
-              <p style={{ color: "#4A0D37" }}>Allow Multiple Buildings Users</p>
+              <p style={{ color: "#527853" }}>Allow Multiple Buildings Users</p>
               <Radio.Group
                 onChange={handleMultipleBuildings}
                 value={allowMultipleBuildings}
@@ -239,7 +239,7 @@ export const EditSuperAdminUser = ({ showDrawer }) => {
           <CustomButton
             handleClick={handleSave}
             buttonName={"Save"}
-            bgColor={"#4A0D37"}
+            bgColor={"#527853"}
             color={"#F8F8F8"}
           />
         </div>
